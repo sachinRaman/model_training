@@ -1,0 +1,163 @@
+{
+    "os": "Linux-4.19.0-24-cloud-amd64-x86_64-with-glibc2.28",
+    "python": "3.10.9",
+    "heartbeatAt": "2023-07-10T16:19:48.517843",
+    "startedAt": "2023-07-10T16:19:48.280569",
+    "docker": null,
+    "cuda": "11.0.228",
+    "args": null,
+    "state": "running",
+    "program": "model_training/train_model.ipynb",
+    "root": "/home/LENOVO",
+    "host": "instance-5-image-1",
+    "username": "LENOVO",
+    "executable": "/home/LENOVO/anaconda3/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 2200.1840000000007,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.184,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 984.0530128479004,
+        "used": 110.0978012084961
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A100-SXM4-40GB",
+            "memory_total": 42949672960
+        },
+        {
+            "name": "NVIDIA A100-SXM4-40GB",
+            "memory_total": 42949672960
+        }
+    ],
+    "memory": {
+        "total": 167.25544357299805
+    }
+}

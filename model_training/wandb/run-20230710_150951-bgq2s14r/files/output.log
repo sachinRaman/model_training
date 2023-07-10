@@ -1,0 +1,592 @@
+/home/LENOVO/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+CPU times: user 1min 23s, sys: 12.8 s, total: 1min 36s
+Wall time: 1min 24s
+Hello
+exit
+Human: Hello
+Human: exit
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+/home/LENOVO/anaconda3/lib/python3.10/site-packages/torch/utils/checkpoint.py:31: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn("None of the inputs have requires_grad=True. Gradients will be None")
+Human: Hello. How are you?
+Human: Hello, how are you?
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+tensor([[22705,    27, 24387,    13,   849,   403,   368,    32,   187, 33355,
+            27,   209,    42,  1353,  4030,    13,  5717,   368,    15,     0]],
+       device='cuda:0')
+Human: exit
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Human: Hello. How are you?
+Bot: Human: Hello. How are you?
+Bot: I'm fine.
+Human: What is your avourite movie?
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Bot: Human: Hello. How are you?
+Bot: Human: Hello. How are you?
+Bot: I'm fine.
+Human: What is your avourite movie?
+Bot: I like "The Godfather".
+Human: Would you like to go out for a walk?
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Bot: Human: Hello. How are you?
+Bot: Human: Hello. How are you?
+Bot: I'm fine.
+Human: What is your avourite movie?
+Bot: Human: Hello. How are you?
+Bot: Human: Hello. How are you?
+Bot: I'm fine.
+Human: What is your avourite movie?
+Bot: I like "The Godfather".
+Human: Would you like to go out for a walk?
+Bot: I'd like that.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Human: Today was a really bad day
+Bot: Human: Hello. How are you?
+Bot: Human: Hello. How are you?
+Bot: I'm fine.
+Human: What is your avourite movie?
+Bot: Human: Hello. How are you?
+Bot: Human: Hello. How are you?
+Bot: I'm fine.
+Human: What is your avourite movie?
+Bot: I like "The Godfather".
+Human: Would you like to go out for a walk?
+Bot: Human: Hello. How are you?
+Bot: Human: Hello. How are you?
+Bot: I'm fine.
+Human: What is your avourite movie?
+Bot: Human: Hello. How are you?
+Bot: Human: Hello. How are you?
+Bot: I'm fine.
+Human: What is your avourite movie?
+Bot: I like "The Godfather".
+Human: Would you like to go out for a walk?
+Bot: I'd like that.
+Human: Today was a really bad day
+Bot: I know.
+Human: How do you know that?
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Bot: Human: Hello. How are you?
+Bot: Human: Hello. How are you?
+Bot: I'm fine.
+Human: What is your avourite movie?
+Bot: Human: Hello. How are you?
+Bot: Human: Hello. How are you?
+Bot: I'm fine.
+Human: What is your avourite movie?
+Bot: I like "The Godfather".
+Human: Would you like to go out for a walk?
+Bot: Human: Hello. How are you?
+Bot: Human: Hello. How are you?
+Bot: I'm fine.
+Human: What is your avourite movie?
+Bot: Human: Hello. How are you?
+Bot: Human: Hello. How are you?
+Bot: I'm fine.
+Human: What is your avourite movie?
+Bot: I like "The Godfather".
+Human: Would you like to go out for a walk?
+Bot: I'd like that.
+Human: Today was a really bad day
+Bot: Human: Hello. How are you?
+Bot: Human: Hello. How are you?
+Bot: I'm fine.
+Human: What is your avourite movie?
+Bot: Human: Hello. How are you?
+Bot: Human: Hello. How are you?
+Bot: I'm fine.
+Human: What is your avourite movie?
+Bot: I like "The Godfather".
+Human: Would you like to go out for a walk?
+Bot: Human: Hello. How are you?
+Bot: Human: Hello. How are you?
+Bot: I'm fine.
+Human: What is your avourite movie?
+Bot: Human: Hello. How are you?
+Bot: Human: Hello. How are you?
+Bot: I'm fine.
+Human: What is your avourite movie?
+Bot: I like "The Godfather".
+Human: Would you like to go out for a walk?
+Bot: I'd like that.
+Human: Today was a really bad day
+Bot: I know.
+Human: How do you know that?
+Bot: I was in the same class with her
+Human: exit
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: My father lives in Tokyo.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: My father lives in Tokyo.
+Human: Tell me something about yourself
+Bot: I like reading.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: My father lives in Tokyo.
+Human: Tell me something about yourself
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: My father lives in Tokyo.
+Human: Tell me something about yourself
+Bot: I like reading.
+Human: I hate you
+Bot: I like reading.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: My father lives in Tokyo.
+Human: Tell me something about yourself
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: My father lives in Tokyo.
+Human: Tell me something about yourself
+Bot: I like reading.
+Human: I hate you
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: My father lives in Tokyo.
+Human: Tell me something about yourself
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: My father lives in Tokyo.
+Human: Tell me something about yourself
+Bot: I like reading.
+Human: I hate you
+Bot: I like reading.
+Human: Are you dumb?
+Bot: Yes
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: My father lives in Tokyo.
+Human: Tell me something about yourself
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: My father lives in Tokyo.
+Human: Tell me something about yourself
+Bot: I like reading.
+Human: I hate you
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: My father lives in Tokyo.
+Human: Tell me something about yourself
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: My father lives in Tokyo.
+Human: Tell me something about yourself
+Bot: I like reading.
+Human: I hate you
+Bot: I like reading.
+Human: Are you dumb?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: My father lives in Tokyo.
+Human: Tell me something about yourself
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: My father lives in Tokyo.
+Human: Tell me something about yourself
+Bot: I like reading.
+Human: I hate you
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: My father lives in Tokyo.
+Human: Tell me something about yourself
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: Human: Wat is your name?
+Bot: Human: Wat is your name?
+Bot: My name is Tetsuya.
+Human: Who gave you this name?
+Bot: My father did.
+Human: Where does your father live?
+Bot: My father lives in Tokyo.
+Human: Tell me something about yourself
+Bot: I like reading.
+Human: I hate you
+Bot: I like reading.
+Human: Are you dumb?
+Bot: Yes
+Human: What is 2 + 2?
+Bot:
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Human: Hey. How are you?
+Bot: I'm fine.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Human: Hey. How are you?
+Bot: Human: Hey. How are you?
+Bot: I'm fine.
+Human: What is your name? Who gave you that name?
+Bot: My name is
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Human: Hey. How are you?
+Bot: Human: Hey. How are you?
+Bot: I'm fine.
+Human: What is your name? Who gave you that name?
+Bot: Human: Hey. How are you?
+Bot: Human: Hey. How are you?
+Bot: I'm fine.
+Human: What is your name? Who gave you that name?
+Bot: My name is
+Human: What is your name?
+Bot: My name is
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Human: Hey. How are you?
+Bot: Human: Hey. How are you?
+Bot: I'm fine.
+Human: What is your name? Who gave you that name?
+Bot: Human: Hey. How are you?
+Bot: Human: Hey. How are you?
+Bot: I'm fine.
+Human: What is your name? Who gave you that name?
+Bot: My name is
+Human: What is your name?
+Bot: Human: Hey. How are you?
+Bot: Human: Hey. How are you?
+Bot: I'm fine.
+Human: What is your name? Who gave you that name?
+Bot: Human: Hey. How are you?
+Bot: Human: Hey. How are you?
+Bot: I'm fine.
+Human: What is your name? Who gave you that name?
+Bot: My name is
+Human: What is your name?
+Bot: My name is
+Human: Tell me already
+Bot: My name is
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Human: Hey. How are you?
+Bot: Human: Hey. How are you?
+Bot: I'm fine.
+Human: What is your name? Who gave you that name?
+Bot: Human: Hey. How are you?
+Bot: Human: Hey. How are you?
+Bot: I'm fine.
+Human: What is your name? Who gave you that name?
+Bot: My name is
+Human: What is your name?
+Bot: Human: Hey. How are you?
+Bot: Human: Hey. How are you?
+Bot: I'm fine.
+Human: What is your name? Who gave you that name?
+Bot: Human: Hey. How are you?
+Bot: Human: Hey. How are you?
+Bot: I'm fine.
+Human: What is your name? Who gave you that name?
+Bot: My name is
+Human: What is your name?
+Bot: My name is
+Human: Tell me already
+Bot: Human: Hey. How are you?
+Bot: Human: Hey. How are you?
+Bot: I'm fine.
+Human: What is your name? Who gave you that name?
+Bot: Human: Hey. How are you?
+Bot: Human: Hey. How are you?
+Bot: I'm fine.
+Human: What is your name? Who gave you that name?
+Bot: My name is
+Human: What is your name?
+Bot: Human: Hey. How are you?
+Bot: Human: Hey. How are you?
+Bot: I'm fine.
+Human: What is your name? Who gave you that name?
+Bot: Human: Hey. How are you?
+Bot: Human: Hey. How are you?
+Bot: I'm fine.
+Human: What is your name? Who gave you that name?
+Bot: My name is
+Human: What is your name?
+Bot: My name is
+Human: Tell me already
+Bot: My name is
+Human: Tell me
+Bot: My name is

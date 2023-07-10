@@ -1,0 +1,1406 @@
+2023-07-10 15:45:58,179 INFO    StreamThr :14554 [internal.py:wandb_internal():87] W&B internal server running at pid: 14554, started at: 2023-07-10 15:45:58.179086
+2023-07-10 15:45:58,181 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status
+2023-07-10 15:45:58,186 INFO    WriterThread:14554 [datastore.py:open_for_write():85] open: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/run-xhlbx9fq.wandb
+2023-07-10 15:45:58,186 DEBUG   SenderThread:14554 [sender.py:send():336] send: header
+2023-07-10 15:45:58,189 DEBUG   SenderThread:14554 [sender.py:send():336] send: run
+2023-07-10 15:45:58,366 INFO    SenderThread:14554 [dir_watcher.py:__init__():216] watching files in: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files
+2023-07-10 15:45:58,367 INFO    SenderThread:14554 [sender.py:_start_run_threads():1067] run started: xhlbx9fq with start time 1689003958.17834
+2023-07-10 15:45:58,367 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:45:58,367 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:45:58,367 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: check_version
+2023-07-10 15:45:58,367 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: check_version
+2023-07-10 15:45:58,439 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: run_start
+2023-07-10 15:45:58,445 DEBUG   HandlerThread:14554 [system_info.py:__init__():31] System info init
+2023-07-10 15:45:58,445 DEBUG   HandlerThread:14554 [system_info.py:__init__():46] System info init done
+2023-07-10 15:45:58,445 INFO    HandlerThread:14554 [system_monitor.py:start():151] Starting system monitor
+2023-07-10 15:45:58,446 INFO    SystemMonitor:14554 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-07-10 15:45:58,446 INFO    HandlerThread:14554 [system_monitor.py:probe():172] Collecting system info
+2023-07-10 15:45:58,446 INFO    SystemMonitor:14554 [interfaces.py:start():168] Started cpu
+2023-07-10 15:45:58,447 INFO    SystemMonitor:14554 [interfaces.py:start():168] Started disk
+2023-07-10 15:45:58,448 INFO    SystemMonitor:14554 [interfaces.py:start():168] Started gpu
+2023-07-10 15:45:58,448 INFO    SystemMonitor:14554 [interfaces.py:start():168] Started memory
+2023-07-10 15:45:58,449 INFO    SystemMonitor:14554 [interfaces.py:start():168] Started network
+2023-07-10 15:45:58,466 DEBUG   HandlerThread:14554 [system_info.py:probe():195] Probing system
+2023-07-10 15:45:58,467 DEBUG   HandlerThread:14554 [git.py:repo():40] git repository is invalid
+2023-07-10 15:45:58,467 DEBUG   HandlerThread:14554 [system_info.py:probe():241] Probing system done
+2023-07-10 15:45:58,468 DEBUG   HandlerThread:14554 [system_monitor.py:probe():181] {'os': 'Linux-4.19.0-24-cloud-amd64-x86_64-with-glibc2.28', 'python': '3.10.9', 'heartbeatAt': '2023-07-10T15:45:58.466349', 'startedAt': '2023-07-10T15:45:58.173069', 'docker': None, 'cuda': '11.0.228', 'args': None, 'state': 'running', 'program': 'model_training/train_model.ipynb', 'root': '/home/LENOVO', 'host': 'instance-5-image-1', 'username': 'LENOVO', 'executable': '/home/LENOVO/anaconda3/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2200.1840000000007, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 984.0530128479004, 'used': 110.09638977050781}, 'gpu': 'NVIDIA A100-SXM4-40GB', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-40GB', 'memory_total': 42949672960}, {'name': 'NVIDIA A100-SXM4-40GB', 'memory_total': 42949672960}], 'memory': {'total': 167.25544357299805}}
+2023-07-10 15:45:58,468 INFO    HandlerThread:14554 [system_monitor.py:probe():182] Finished collecting system info
+2023-07-10 15:45:58,468 INFO    HandlerThread:14554 [system_monitor.py:probe():185] Publishing system info
+2023-07-10 15:45:58,468 DEBUG   HandlerThread:14554 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-10 15:45:58,468 DEBUG   HandlerThread:14554 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-10 15:45:58,468 DEBUG   HandlerThread:14554 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-10 15:45:59,368 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_created():275] file/dir created: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/requirements.txt
+2023-07-10 15:45:59,368 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_created():275] file/dir created: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:45:59,368 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_created():275] file/dir created: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/conda-environment.yaml
+2023-07-10 15:46:05,607 DEBUG   HandlerThread:14554 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-10 15:46:05,608 INFO    HandlerThread:14554 [system_monitor.py:probe():187] Finished publishing system info
+2023-07-10 15:46:05,610 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:46:05,610 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:46:05,610 DEBUG   SenderThread:14554 [sender.py:send():336] send: files
+2023-07-10 15:46:05,610 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-07-10 15:46:05,622 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-10 15:46:05,623 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: stop_status
+2023-07-10 15:46:05,668 DEBUG   SenderThread:14554 [sender.py:send():336] send: telemetry
+2023-07-10 15:46:05,669 DEBUG   SenderThread:14554 [sender.py:send():336] send: config
+2023-07-10 15:46:05,670 DEBUG   SenderThread:14554 [sender.py:send():336] send: metric
+2023-07-10 15:46:05,670 DEBUG   SenderThread:14554 [sender.py:send():336] send: telemetry
+2023-07-10 15:46:05,670 DEBUG   SenderThread:14554 [sender.py:send():336] send: metric
+2023-07-10 15:46:05,670 WARNING SenderThread:14554 [sender.py:send_metric():1272] Seen metric with glob (shouldn't happen)
+2023-07-10 15:46:05,975 INFO    wandb-upload_0:14554 [upload_job.py:push():138] Uploaded file /var/tmp/tmphk9grf5gwandb/6j1rckca-wandb-metadata.json
+2023-07-10 15:46:06,369 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/conda-environment.yaml
+2023-07-10 15:46:06,369 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_created():275] file/dir created: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-metadata.json
+2023-07-10 15:46:08,671 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:46:09,370 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_created():275] file/dir created: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/output.log
+2023-07-10 15:46:11,371 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/output.log
+2023-07-10 15:46:13,882 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:46:15,337 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:46:15,339 DEBUG   SenderThread:14554 [sender.py:send():336] send: metric
+2023-07-10 15:46:15,339 DEBUG   SenderThread:14554 [sender.py:send():336] send: metric
+2023-07-10 15:46:15,339 DEBUG   SenderThread:14554 [sender.py:send():336] send: metric
+2023-07-10 15:46:15,339 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:46:15,339 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:46:15,340 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:46:15,373 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:46:19,341 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:46:20,623 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:46:20,623 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:46:22,336 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:46:22,336 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:46:22,337 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:46:22,338 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:46:22,375 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:46:25,339 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:46:25,624 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:46:29,928 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:46:29,929 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:46:29,929 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:46:29,931 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:46:30,377 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:46:30,626 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:46:30,935 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:46:31,378 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/config.yaml
+2023-07-10 15:46:35,628 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:46:36,072 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:46:36,821 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:46:36,822 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:46:36,822 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:46:36,823 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:46:37,380 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:46:40,629 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:46:41,824 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:46:43,989 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:46:43,990 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:46:43,991 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:46:43,992 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:46:44,382 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:46:45,630 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:46:46,993 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:46:50,631 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:46:51,056 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:46:51,057 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:46:51,057 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:46:51,059 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:46:51,384 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:46:52,059 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:46:55,634 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:46:57,060 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:46:58,449 DEBUG   SystemMonitor:14554 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-07-10 15:46:58,450 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:46:58,538 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:46:58,538 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:46:58,539 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:46:58,539 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:46:59,387 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:47:00,692 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:47:02,540 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:47:05,693 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:47:05,767 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:47:05,768 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:47:05,768 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:47:05,770 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:47:06,389 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:47:07,771 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:47:10,698 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:47:12,706 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:47:12,706 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:47:12,707 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:47:12,707 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:47:13,391 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:47:13,707 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:47:15,699 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:47:18,708 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:47:19,877 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:47:19,878 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:47:19,878 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:47:19,880 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:47:20,394 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:47:20,700 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:47:23,881 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:47:25,710 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:47:27,150 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:47:27,151 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:47:27,151 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:47:27,152 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:47:27,396 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:47:28,451 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:47:29,452 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:47:30,712 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:47:34,360 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:47:34,361 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:47:34,361 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:47:34,363 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:47:34,398 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:47:35,363 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:47:35,712 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:47:40,364 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:47:40,718 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:47:41,527 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:47:41,528 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:47:41,528 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:47:41,529 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:47:42,401 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:47:45,529 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:47:45,719 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:47:49,132 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:47:49,133 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:47:49,133 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:47:49,134 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:47:49,403 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:47:50,720 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:47:51,135 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:47:55,721 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:47:56,136 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:47:56,193 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:47:56,194 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:47:56,194 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:47:56,195 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:47:56,405 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:47:58,452 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:48:00,722 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:48:01,453 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:48:03,232 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:48:03,233 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:48:03,233 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:48:03,235 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:48:03,407 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:48:05,723 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:48:07,236 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:48:10,724 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:48:10,989 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:48:10,990 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:48:10,990 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:48:10,990 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:48:11,410 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:48:12,991 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:48:15,725 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:48:17,992 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:48:18,928 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:48:18,929 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:48:18,929 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:48:18,930 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:48:19,413 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:48:20,726 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:48:23,932 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:48:25,727 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:48:25,805 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:48:25,806 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:48:25,806 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:48:25,807 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:48:26,415 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:48:28,453 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:48:29,455 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:48:30,729 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:48:33,257 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:48:33,258 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:48:33,258 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:48:33,260 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:48:33,417 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:48:35,261 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:48:35,730 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:48:40,261 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:48:40,718 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:48:40,719 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:48:40,720 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:48:40,720 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:48:40,735 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:48:41,420 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:48:45,721 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:48:45,736 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:48:47,909 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:48:47,910 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:48:47,910 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:48:47,912 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:48:48,422 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:48:50,737 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:48:50,912 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:48:54,778 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:48:54,779 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:48:54,779 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:48:54,779 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:48:55,425 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:48:55,737 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:48:56,780 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:48:58,453 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:49:00,738 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:49:02,454 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:49:02,547 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:49:02,548 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:49:02,548 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:49:02,548 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:49:03,427 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:49:05,739 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:49:07,549 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:49:09,524 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:49:09,524 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:49:09,525 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:49:09,526 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:49:10,429 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:49:10,740 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:49:13,527 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:49:15,741 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:49:16,463 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:49:16,463 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:49:16,464 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:49:16,464 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:49:17,431 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:49:19,465 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:49:20,742 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:49:24,310 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:49:24,311 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:49:24,311 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:49:24,313 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:49:24,434 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:49:25,313 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:49:25,743 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:49:28,454 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:49:30,455 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:49:30,745 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:49:32,282 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:49:32,282 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:49:32,283 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:49:32,283 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:49:32,436 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:49:35,746 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:49:36,284 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:49:39,159 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:49:39,160 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:49:39,160 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:49:39,162 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:49:39,438 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:49:40,746 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:49:42,162 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:49:45,748 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:49:46,127 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:49:46,127 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:49:46,128 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:49:46,128 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:49:46,440 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:49:48,129 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:49:50,748 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:49:53,067 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:49:53,068 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:49:53,068 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:49:53,070 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:49:53,443 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:49:54,070 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:49:55,749 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:49:58,455 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:49:59,456 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:50:00,438 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:50:00,439 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:50:00,439 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:50:00,439 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:50:00,445 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:50:00,821 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:50:05,440 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:50:05,822 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:50:07,391 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:50:07,392 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:50:07,392 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:50:07,394 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:50:07,447 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:50:10,823 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:50:11,395 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:50:14,435 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:50:14,436 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:50:14,436 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:50:14,436 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:50:14,449 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:50:15,824 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:50:16,437 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:50:20,825 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:50:21,438 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:50:22,009 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:50:22,010 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:50:22,010 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:50:22,012 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:50:22,451 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:50:25,826 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:50:27,012 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:50:28,456 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:50:28,815 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:50:28,816 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:50:28,816 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:50:28,816 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:50:29,453 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:50:30,831 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:50:32,817 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:50:35,832 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:50:35,953 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:50:35,953 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:50:35,954 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:50:35,956 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:50:36,456 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:50:37,956 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:50:40,833 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:50:42,957 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:50:43,920 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:50:43,920 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:50:43,921 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:50:43,921 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:50:44,458 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:50:45,834 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:50:48,922 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:50:50,810 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:50:50,810 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:50:50,811 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:50:50,812 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:50:50,834 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:50:51,460 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:50:54,813 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:50:55,840 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:50:57,815 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:50:57,816 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:50:57,817 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:50:57,817 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:50:58,456 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:50:58,463 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:51:00,457 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:51:01,011 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:51:05,384 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:51:05,385 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:51:05,385 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:51:05,385 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:51:05,465 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:51:06,012 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:51:06,386 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:51:11,013 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:51:11,387 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:51:13,803 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:51:13,804 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:51:13,805 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:51:13,805 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:51:14,468 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:51:16,014 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:51:16,806 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:51:21,015 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:51:21,743 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:51:21,744 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:51:21,744 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:51:21,746 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:51:22,470 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:51:22,746 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:51:26,016 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:51:27,747 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:51:28,457 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:51:28,802 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:51:28,803 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:51:28,803 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:51:28,803 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:51:29,473 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:51:31,016 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:51:32,804 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:51:35,891 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:51:35,894 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:51:35,895 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:51:35,895 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:51:36,017 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:51:36,475 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:51:37,896 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:51:41,018 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:51:42,896 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:51:43,169 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:51:43,170 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:51:43,170 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:51:43,170 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:51:43,477 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:51:46,019 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:51:48,172 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:51:51,020 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:51:51,555 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:51:51,555 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:51:51,556 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:51:51,556 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:51:52,480 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:51:53,557 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:51:56,021 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:51:58,458 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:51:58,814 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:51:58,815 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:51:58,815 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:51:58,815 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:51:58,816 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:51:59,482 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:52:01,032 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:52:03,817 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:52:06,033 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:52:08,094 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:52:08,094 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:52:08,095 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:52:08,095 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:52:08,485 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:52:09,095 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:52:11,034 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:52:14,096 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:52:15,157 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:52:15,158 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:52:15,158 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:52:15,158 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:52:15,487 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:52:16,035 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:52:19,159 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:52:21,036 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:52:22,349 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:52:22,350 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:52:22,351 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:52:22,351 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:52:22,490 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:52:24,352 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:52:26,037 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:52:28,459 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:52:29,333 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:52:29,334 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:52:29,335 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:52:29,335 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:52:29,492 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:52:30,335 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:52:31,039 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:52:35,336 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:52:36,040 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:52:36,433 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:52:36,434 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:52:36,434 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:52:36,434 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:52:36,494 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:52:40,435 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:52:41,041 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:52:43,863 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:52:43,864 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:52:43,864 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:52:43,864 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:52:44,497 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:52:45,865 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:52:46,042 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:52:50,832 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:52:50,833 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:52:50,833 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:52:50,833 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:52:51,043 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:52:51,499 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:52:51,834 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:52:56,049 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:52:56,835 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:52:57,683 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:52:57,684 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:52:57,684 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:52:57,685 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:52:58,460 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:52:58,501 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:53:01,055 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:53:02,461 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:53:05,275 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:53:05,276 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:53:05,276 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:53:05,276 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:53:05,504 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:53:06,056 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:53:08,277 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:53:11,057 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:53:12,468 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:53:12,468 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:53:12,469 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:53:12,469 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:53:12,506 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:53:13,469 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:53:16,058 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:53:18,470 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:53:19,474 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:53:19,475 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:53:19,475 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:53:19,476 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:53:19,508 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:53:21,059 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:53:23,477 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:53:26,060 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:53:26,474 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:53:26,474 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:53:26,475 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:53:26,475 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:53:26,510 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:53:28,460 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:53:29,461 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:53:31,062 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:53:33,463 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:53:33,464 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:53:33,464 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:53:33,465 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:53:33,513 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:53:34,465 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:53:36,063 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:53:39,466 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:53:40,422 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:53:40,423 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:53:40,423 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:53:40,423 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:53:40,515 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:53:41,064 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:53:45,424 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:53:46,066 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:53:47,541 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:53:47,541 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:53:47,542 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:53:47,542 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:53:48,517 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:53:50,543 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:53:51,067 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:53:54,273 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:53:54,274 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:53:54,274 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:53:54,275 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:53:54,519 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:53:56,068 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:53:56,275 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:53:58,461 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:54:01,069 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:54:01,462 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:54:01,509 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:54:01,510 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:54:01,511 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:54:01,511 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:54:01,521 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:54:06,071 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:54:06,512 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:54:08,717 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:54:08,718 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:54:08,718 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:54:08,718 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:54:09,524 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:54:11,072 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:54:11,719 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:54:15,673 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:54:15,674 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:54:15,674 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:54:15,674 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:54:16,077 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:54:16,526 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:54:17,675 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:54:21,083 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:54:22,676 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:54:22,761 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:54:22,762 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:54:22,762 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:54:22,763 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:54:23,528 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:54:26,084 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:54:27,764 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:54:28,462 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:54:29,545 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:54:29,545 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:54:29,546 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:54:29,546 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:54:30,530 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:54:31,085 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:54:33,547 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:54:36,086 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:54:36,629 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:54:36,630 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:54:36,630 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:54:36,630 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:54:37,532 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:54:38,631 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:54:41,087 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:54:43,632 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:54:45,775 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:54:45,776 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:54:45,776 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:54:45,777 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:54:46,088 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:54:46,535 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:54:48,777 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:54:51,089 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:54:53,147 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:54:53,148 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:54:53,148 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:54:53,148 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:54:53,537 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:54:54,149 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:54:56,089 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:54:58,463 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:54:59,463 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:55:00,557 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:55:00,558 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:55:00,559 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:55:00,559 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:55:01,090 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:55:01,540 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:55:04,560 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:55:06,091 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:55:07,974 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:55:07,975 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:55:07,975 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:55:07,976 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:55:08,542 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:55:09,976 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:55:11,098 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:55:14,977 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:55:15,357 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:55:15,357 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:55:15,358 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:55:15,358 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:55:15,544 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:55:16,099 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:55:20,359 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:55:21,100 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:55:22,863 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:55:22,864 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:55:22,864 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:55:22,865 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:55:23,547 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:55:25,865 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:55:26,101 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:55:28,464 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:55:30,250 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:55:30,251 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:55:30,251 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:55:30,252 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:55:30,549 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:55:31,101 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:55:31,252 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:55:36,102 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:55:36,253 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:55:37,498 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:55:37,498 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:55:37,499 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:55:37,499 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:55:37,551 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:55:41,103 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:55:41,500 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:55:44,530 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:55:44,531 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:55:44,531 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:55:44,532 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:55:44,553 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:55:46,104 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:55:46,532 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:55:51,110 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:55:51,533 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:55:51,880 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:55:51,881 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:55:51,881 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:55:51,882 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:55:52,555 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:55:56,112 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:55:56,883 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:55:58,464 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:55:59,122 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:55:59,123 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:55:59,123 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:55:59,124 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:55:59,557 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:56:01,112 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:56:02,124 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:56:06,114 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:56:06,401 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:56:06,402 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:56:06,402 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:56:06,403 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:56:06,559 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:56:07,403 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:56:11,115 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:56:12,404 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:56:13,696 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:56:13,697 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:56:13,697 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:56:13,698 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:56:14,562 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:56:16,116 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:56:17,699 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:56:20,913 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:56:20,913 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:56:20,914 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:56:20,914 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:56:21,122 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:56:21,564 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:56:22,915 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:56:26,125 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:56:27,813 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:56:27,814 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:56:27,814 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:56:27,814 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:56:28,465 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:56:28,466 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:56:28,566 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:56:31,126 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:56:33,467 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:56:35,323 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:56:35,324 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:56:35,324 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:56:35,324 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:56:35,568 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:56:36,127 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:56:39,325 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:56:41,128 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:56:42,464 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:56:42,465 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:56:42,465 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:56:42,466 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:56:42,570 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:56:44,466 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:56:46,135 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:56:49,467 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:56:49,603 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:56:49,604 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:56:49,604 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:56:49,605 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:56:50,572 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:56:51,136 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:56:54,606 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:56:56,142 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:56:56,670 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:56:56,670 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:56:56,671 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:56:56,671 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:56:57,574 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:56:58,467 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:57:00,467 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:57:01,143 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:57:03,555 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:57:03,556 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:57:03,557 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:57:03,557 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:57:03,576 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:57:05,558 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:57:06,144 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:57:10,559 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:57:10,810 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:57:10,810 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:57:10,811 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:57:10,811 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:57:11,145 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:57:11,578 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:57:15,812 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:57:16,146 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:57:18,211 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:57:18,212 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:57:18,212 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:57:18,213 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:57:18,580 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:57:21,147 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:57:21,213 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:57:25,706 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:57:25,707 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:57:25,707 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:57:25,707 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:57:26,148 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:57:26,583 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:57:26,708 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:57:28,467 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:57:31,152 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:57:32,469 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:57:32,792 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:57:32,793 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:57:32,793 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:57:32,794 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:57:33,585 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:57:36,154 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:57:37,795 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:57:39,855 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:57:39,856 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:57:39,856 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:57:39,856 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:57:40,587 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:57:41,154 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:57:42,857 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:57:46,155 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:57:47,006 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:57:47,007 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:57:47,007 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:57:47,008 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:57:47,590 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:57:48,008 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:57:51,156 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:57:53,009 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:57:54,122 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:57:54,123 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:57:54,123 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:57:54,123 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:57:54,592 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:57:56,163 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:57:58,124 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:57:58,470 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:58:01,164 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:58:01,332 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:58:01,332 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:58:01,333 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:58:01,333 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:58:01,594 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:58:03,334 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:58:06,164 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:58:08,119 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:58:08,120 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:58:08,120 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:58:08,121 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:58:08,597 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:58:09,121 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:58:11,170 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:58:14,122 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:58:15,505 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:58:15,506 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:58:15,506 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:58:15,507 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:58:15,599 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:58:16,171 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:58:19,507 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:58:21,172 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:58:22,927 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:58:22,928 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:58:22,929 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:58:22,929 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:58:23,603 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:58:24,929 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:58:26,173 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:58:28,469 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:58:30,316 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:58:30,317 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:58:30,317 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:58:30,317 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:58:30,318 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:58:30,605 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:58:31,179 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:58:35,319 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:58:36,180 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:58:37,428 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:58:37,428 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:58:37,429 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:58:37,429 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:58:37,608 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:58:40,430 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:58:41,181 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:58:44,785 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:58:44,786 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:58:44,787 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:58:44,787 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:58:45,612 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:58:45,788 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:58:46,187 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:58:50,788 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:58:51,188 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:58:51,953 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:58:51,954 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:58:51,954 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:58:51,954 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:58:52,615 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:58:55,955 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:58:56,189 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:58:58,470 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:58:59,201 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:58:59,202 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:58:59,202 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:58:59,203 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:58:59,617 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:59:01,194 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:59:01,203 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:59:06,037 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:59:06,038 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:59:06,038 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:59:06,040 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:59:06,195 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:59:06,620 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:59:07,040 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:59:11,196 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:59:12,041 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:59:13,939 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:59:13,940 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:59:13,940 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:59:13,941 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:59:14,624 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:59:16,197 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:59:17,942 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:59:21,198 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:59:21,304 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:59:21,305 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:59:21,305 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:59:21,306 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:59:21,626 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:59:23,306 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:59:26,203 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:59:28,307 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:59:28,470 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:59:28,881 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:59:28,882 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:59:28,883 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:59:28,883 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:59:29,628 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:59:31,209 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:59:33,884 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:59:36,209 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:59:37,464 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:59:37,465 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:59:37,466 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:59:37,467 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:59:37,631 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:59:39,468 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:59:41,210 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:59:44,468 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:59:44,639 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:59:44,640 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:59:44,640 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:59:44,640 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:59:45,633 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:59:46,211 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:59:49,642 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:59:51,212 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:59:52,121 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:59:52,122 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:59:52,122 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:59:52,122 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:59:52,635 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 15:59:55,123 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:59:56,213 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:59:58,471 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 15:59:59,666 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:59:59,667 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 15:59:59,667 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:59:59,667 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:00:00,638 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:00:00,668 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:00:01,214 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:00:05,668 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:00:06,215 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:00:06,749 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:00:06,750 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:00:06,750 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:00:06,751 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:00:07,640 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:00:10,751 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:00:11,216 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:00:14,166 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:00:14,166 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:00:14,167 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:00:14,168 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:00:14,642 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:00:16,169 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:00:16,222 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:00:21,170 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:00:21,223 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:00:21,315 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:00:21,316 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:00:21,316 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:00:21,316 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:00:21,644 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:00:26,224 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:00:26,317 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:00:28,317 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:00:28,318 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:00:28,318 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:00:28,318 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:00:28,472 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 16:00:28,646 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:00:31,225 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:00:31,473 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:00:35,016 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:00:35,017 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:00:35,017 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:00:35,017 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:00:35,648 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:00:36,226 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:00:37,018 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:00:41,228 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:00:42,019 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:00:42,719 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:00:42,720 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:00:42,720 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:00:42,720 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:00:43,651 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:00:46,235 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:00:47,721 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:00:49,993 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:00:49,994 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:00:49,994 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:00:49,996 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:00:50,653 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:00:51,236 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:00:52,997 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:00:56,237 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:00:57,327 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:00:57,328 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:00:57,328 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:00:57,328 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:00:57,655 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:00:58,329 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:00:58,473 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 16:01:01,243 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:01:03,474 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:01:05,051 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:01:05,052 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:01:05,052 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:01:05,052 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:01:05,658 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:01:06,244 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:01:09,053 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:01:11,245 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:01:12,754 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:01:12,755 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:01:12,755 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:01:12,755 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:01:13,660 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:01:14,756 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:01:16,246 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:01:19,718 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:01:19,718 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:01:19,719 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:01:19,719 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:01:20,662 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:01:20,719 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:01:21,247 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:01:25,720 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:01:26,248 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:01:27,108 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:01:27,109 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:01:27,109 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:01:27,111 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:01:27,664 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:01:28,474 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 16:01:31,254 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:01:31,475 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:01:34,686 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:01:34,687 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:01:34,688 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:01:34,688 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:01:35,667 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:01:36,255 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:01:36,688 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:01:41,255 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:01:41,689 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:01:42,438 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:01:42,439 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:01:42,440 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:01:42,440 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:01:42,669 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:01:46,256 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:01:47,441 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:01:49,270 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:01:49,271 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:01:49,271 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:01:49,272 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:01:49,671 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:01:51,257 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:01:53,273 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:01:56,258 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:01:56,496 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:01:56,497 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:01:56,497 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:01:56,498 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:01:56,674 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:01:58,474 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 16:01:58,476 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:02:01,263 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:02:03,476 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:02:03,720 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:02:03,720 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:02:03,721 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:02:03,721 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:02:04,676 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:02:06,264 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:02:08,722 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:02:11,265 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:02:11,395 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:02:11,396 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:02:11,396 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:02:11,397 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:02:11,678 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:02:14,397 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:02:16,266 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:02:18,676 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:02:18,677 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:02:18,677 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:02:18,677 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:02:18,680 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:02:19,678 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:02:21,267 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:02:24,678 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:02:26,096 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:02:26,097 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:02:26,097 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:02:26,097 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:02:26,268 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:02:26,683 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:02:28,475 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 16:02:30,476 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:02:31,268 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:02:33,298 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:02:33,299 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:02:33,299 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:02:33,300 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:02:33,685 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:02:36,269 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:02:36,300 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:02:40,659 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:02:40,660 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:02:40,660 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:02:40,661 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:02:40,687 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:02:41,270 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:02:41,661 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:02:46,271 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:02:46,662 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:02:48,173 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:02:48,173 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:02:48,174 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:02:48,174 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:02:48,689 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:02:51,272 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:02:52,175 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:02:55,274 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:02:55,275 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:02:55,275 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:02:55,275 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:02:55,691 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:02:56,273 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:02:57,276 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:02:58,476 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 16:03:01,274 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:03:02,391 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:03:02,392 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:03:02,392 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:03:02,393 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:03:02,393 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:03:02,694 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:03:06,275 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:03:07,394 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:03:10,003 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:03:10,004 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:03:10,004 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:03:10,005 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:03:10,697 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:03:11,276 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:03:13,005 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:03:16,280 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:03:17,056 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:03:17,057 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:03:17,057 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:03:17,058 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:03:17,699 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:03:18,058 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:03:21,281 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:03:23,059 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:03:24,168 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:03:24,169 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:03:24,169 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:03:24,170 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:03:24,701 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:03:26,282 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:03:28,170 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:03:28,477 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 16:03:30,956 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: pause
+2023-07-10 16:03:30,956 INFO    HandlerThread:14554 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-07-10 16:03:30,956 INFO    HandlerThread:14554 [system_monitor.py:finish():161] Stopping system monitor
+2023-07-10 16:03:30,957 DEBUG   SystemMonitor:14554 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-07-10 16:03:30,957 DEBUG   SystemMonitor:14554 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-07-10 16:03:30,958 INFO    HandlerThread:14554 [interfaces.py:finish():175] Joined cpu
+2023-07-10 16:03:30,959 INFO    HandlerThread:14554 [interfaces.py:finish():175] Joined disk
+2023-07-10 16:03:31,060 INFO    HandlerThread:14554 [interfaces.py:finish():175] Joined gpu
+2023-07-10 16:03:31,060 INFO    HandlerThread:14554 [interfaces.py:finish():175] Joined memory
+2023-07-10 16:03:31,060 INFO    HandlerThread:14554 [interfaces.py:finish():175] Joined network
+2023-07-10 16:03:31,061 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 16:03:31,289 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:03:34,062 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:03:36,290 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:03:39,063 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:03:41,290 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:03:44,063 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:03:46,291 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:03:49,064 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:03:51,292 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:03:54,065 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:03:56,293 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:03:59,066 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:04:01,294 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:04:04,067 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:04:06,295 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:04:09,068 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:04:11,296 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:04:14,068 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:04:16,297 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:04:19,069 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:04:21,298 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:04:24,070 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:04:26,299 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:04:29,071 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:04:31,300 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:04:34,072 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:04:36,301 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:04:39,073 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:04:41,301 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:04:44,074 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:04:46,302 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:04:49,075 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:04:51,303 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:04:54,075 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:04:56,304 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:04:59,076 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:05:01,305 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:05:04,077 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:05:06,306 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:05:09,078 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:05:11,307 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:05:14,079 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:05:16,308 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:05:19,080 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:05:19,969 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: resume
+2023-07-10 16:05:19,969 INFO    HandlerThread:14554 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-07-10 16:05:19,969 INFO    HandlerThread:14554 [system_monitor.py:start():151] Starting system monitor
+2023-07-10 16:05:19,969 INFO    SystemMonitor:14554 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-07-10 16:05:19,969 INFO    SystemMonitor:14554 [interfaces.py:start():168] Started cpu
+2023-07-10 16:05:19,970 INFO    SystemMonitor:14554 [interfaces.py:start():168] Started disk
+2023-07-10 16:05:19,970 INFO    SystemMonitor:14554 [interfaces.py:start():168] Started gpu
+2023-07-10 16:05:19,970 INFO    SystemMonitor:14554 [interfaces.py:start():168] Started memory
+2023-07-10 16:05:19,971 INFO    SystemMonitor:14554 [interfaces.py:start():168] Started network
+2023-07-10 16:05:19,974 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: pause
+2023-07-10 16:05:19,974 INFO    HandlerThread:14554 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-07-10 16:05:19,974 INFO    HandlerThread:14554 [system_monitor.py:finish():161] Stopping system monitor
+2023-07-10 16:05:19,975 DEBUG   SystemMonitor:14554 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-07-10 16:05:19,975 INFO    HandlerThread:14554 [interfaces.py:finish():175] Joined cpu
+2023-07-10 16:05:19,975 INFO    HandlerThread:14554 [interfaces.py:finish():175] Joined disk
+2023-07-10 16:05:19,975 DEBUG   SystemMonitor:14554 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-07-10 16:05:19,976 DEBUG   SystemMonitor:14554 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-07-10 16:05:20,082 INFO    HandlerThread:14554 [interfaces.py:finish():175] Joined gpu
+2023-07-10 16:05:20,082 INFO    HandlerThread:14554 [interfaces.py:finish():175] Joined memory
+2023-07-10 16:05:20,082 INFO    HandlerThread:14554 [interfaces.py:finish():175] Joined network
+2023-07-10 16:05:20,082 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 16:05:21,309 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:05:24,083 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:05:25,310 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: resume
+2023-07-10 16:05:25,310 INFO    HandlerThread:14554 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-07-10 16:05:25,310 INFO    HandlerThread:14554 [system_monitor.py:start():151] Starting system monitor
+2023-07-10 16:05:25,311 INFO    SystemMonitor:14554 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-07-10 16:05:25,311 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: pause
+2023-07-10 16:05:25,312 INFO    HandlerThread:14554 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-07-10 16:05:25,312 INFO    HandlerThread:14554 [system_monitor.py:finish():161] Stopping system monitor
+2023-07-10 16:05:25,312 INFO    SystemMonitor:14554 [interfaces.py:start():168] Started cpu
+2023-07-10 16:05:25,313 DEBUG   SystemMonitor:14554 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-07-10 16:05:25,313 DEBUG   SystemMonitor:14554 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-07-10 16:05:25,313 DEBUG   SystemMonitor:14554 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-07-10 16:05:25,314 INFO    HandlerThread:14554 [interfaces.py:finish():175] Joined cpu
+2023-07-10 16:05:25,314 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 16:05:26,310 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:05:27,740 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/output.log
+2023-07-10 16:05:28,550 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: resume
+2023-07-10 16:05:28,551 INFO    HandlerThread:14554 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-07-10 16:05:28,551 INFO    HandlerThread:14554 [system_monitor.py:start():151] Starting system monitor
+2023-07-10 16:05:28,551 INFO    SystemMonitor:14554 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-07-10 16:05:28,551 INFO    SystemMonitor:14554 [interfaces.py:start():168] Started cpu
+2023-07-10 16:05:28,552 INFO    SystemMonitor:14554 [interfaces.py:start():168] Started disk
+2023-07-10 16:05:28,552 INFO    SystemMonitor:14554 [interfaces.py:start():168] Started gpu
+2023-07-10 16:05:28,553 INFO    SystemMonitor:14554 [interfaces.py:start():168] Started memory
+2023-07-10 16:05:28,553 INFO    SystemMonitor:14554 [interfaces.py:start():168] Started network
+2023-07-10 16:05:28,824 DEBUG   SenderThread:14554 [sender.py:send():336] send: config
+2023-07-10 16:05:28,825 DEBUG   SenderThread:14554 [sender.py:send():336] send: metric
+2023-07-10 16:05:28,825 DEBUG   SenderThread:14554 [sender.py:send():336] send: metric
+2023-07-10 16:05:28,825 WARNING SenderThread:14554 [sender.py:send_metric():1272] Seen metric with glob (shouldn't happen)
+2023-07-10 16:05:29,826 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:05:31,311 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:05:34,826 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:05:36,312 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:05:39,831 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:05:40,744 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/config.yaml
+2023-07-10 16:05:41,312 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:05:45,114 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:05:46,313 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:05:50,114 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:05:51,314 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:05:55,115 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:05:55,691 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:05:55,691 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:05:55,692 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:05:55,693 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:05:55,748 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:05:56,315 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:06:00,695 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:06:01,316 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:06:05,695 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:06:06,316 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:06:10,696 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:06:11,317 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:06:15,697 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:06:16,318 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:06:20,698 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:06:21,319 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:06:25,698 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:06:26,320 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:06:28,554 DEBUG   SystemMonitor:14554 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-07-10 16:06:28,555 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 16:06:29,937 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:06:29,938 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:06:29,938 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:06:29,939 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:06:30,759 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:06:30,939 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:06:31,321 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:06:35,940 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:06:36,322 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:06:40,941 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:06:41,323 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:06:45,941 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:06:46,324 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:06:50,942 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:06:51,325 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:06:55,943 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:06:56,326 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:06:58,556 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 16:07:01,327 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:07:01,557 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:07:03,479 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:07:03,481 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:07:03,481 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:07:03,482 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:07:03,769 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:07:06,328 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:07:07,483 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:07:11,329 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:07:12,483 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:07:16,330 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:07:17,484 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:07:21,331 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:07:22,485 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:07:26,332 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:07:27,486 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:07:28,556 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 16:07:31,332 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:07:32,557 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:07:36,333 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:07:36,607 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 16:07:36,608 DEBUG   SenderThread:14554 [sender.py:send():336] send: history
+2023-07-10 16:07:36,608 DEBUG   SenderThread:14554 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 16:07:36,609 INFO    SenderThread:14554 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 16:07:36,779 INFO    Thread-13 :14554 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/files/wandb-summary.json
+2023-07-10 16:07:37,609 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:07:41,334 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:07:42,610 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:07:46,335 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:07:47,611 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:07:51,339 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:07:52,612 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:07:56,340 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 16:07:57,612 DEBUG   HandlerThread:14554 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 16:07:58,557 DEBUG   SenderThread:14554 [sender.py:send():336] send: stats
+2023-07-10 16:08:00,576 WARNING StreamThr :14554 [internal.py:is_dead():415] Internal process exiting, parent pid 13101 disappeared
+2023-07-10 16:08:00,576 ERROR   StreamThr :14554 [internal.py:wandb_internal():153] Internal process shutdown.
+2023-07-10 16:08:00,592 ERROR   memory    :14554 [interfaces.py:monitor():129] Failed to sample metric: process no longer exists (pid=13101)
+2023-07-10 16:08:00,592 ERROR   memory    :14554 [interfaces.py:monitor():129] Failed to sample metric: process no longer exists (pid=13101)
+2023-07-10 16:08:00,608 ERROR   cpu       :14554 [interfaces.py:monitor():129] Failed to sample metric: process no longer exists (pid=13101)
+2023-07-10 16:08:00,608 ERROR   cpu       :14554 [interfaces.py:monitor():129] Failed to sample metric: process no longer exists (pid=13101)
+2023-07-10 16:08:01,557 INFO    HandlerThread:14554 [handler.py:finish():841] shutting down handler
+2023-07-10 16:08:01,557 INFO    WriterThread:14554 [datastore.py:close():299] close: /home/LENOVO/model_training/wandb/run-20230710_154558-xhlbx9fq/run-xhlbx9fq.wandb
+2023-07-10 16:08:01,558 INFO    SenderThread:14554 [sender.py:finish():1493] shutting down sender
+2023-07-10 16:08:01,699 INFO    MainThread:14554 [internal.py:handle_exit():77] Internal process exited

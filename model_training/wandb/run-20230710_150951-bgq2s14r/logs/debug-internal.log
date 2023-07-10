@@ -1,0 +1,1258 @@
+2023-07-10 15:09:51,404 INFO    StreamThr :13026 [internal.py:wandb_internal():87] W&B internal server running at pid: 13026, started at: 2023-07-10 15:09:51.403808
+2023-07-10 15:09:51,406 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status
+2023-07-10 15:09:51,411 INFO    WriterThread:13026 [datastore.py:open_for_write():85] open: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/run-bgq2s14r.wandb
+2023-07-10 15:09:51,412 DEBUG   SenderThread:13026 [sender.py:send():336] send: header
+2023-07-10 15:09:51,415 DEBUG   SenderThread:13026 [sender.py:send():336] send: run
+2023-07-10 15:09:51,612 INFO    SenderThread:13026 [dir_watcher.py:__init__():216] watching files in: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files
+2023-07-10 15:09:51,612 INFO    SenderThread:13026 [sender.py:_start_run_threads():1067] run started: bgq2s14r with start time 1689001791.404145
+2023-07-10 15:09:51,612 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:09:51,612 INFO    SenderThread:13026 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:09:51,613 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: check_version
+2023-07-10 15:09:51,613 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: check_version
+2023-07-10 15:09:51,685 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: run_start
+2023-07-10 15:09:51,691 DEBUG   HandlerThread:13026 [system_info.py:__init__():31] System info init
+2023-07-10 15:09:51,691 DEBUG   HandlerThread:13026 [system_info.py:__init__():46] System info init done
+2023-07-10 15:09:51,691 INFO    HandlerThread:13026 [system_monitor.py:start():151] Starting system monitor
+2023-07-10 15:09:51,691 INFO    SystemMonitor:13026 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-07-10 15:09:51,692 INFO    HandlerThread:13026 [system_monitor.py:probe():172] Collecting system info
+2023-07-10 15:09:51,692 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started cpu
+2023-07-10 15:09:51,693 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started disk
+2023-07-10 15:09:51,693 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started gpu
+2023-07-10 15:09:51,694 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started memory
+2023-07-10 15:09:51,695 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started network
+2023-07-10 15:09:51,712 DEBUG   HandlerThread:13026 [system_info.py:probe():195] Probing system
+2023-07-10 15:09:51,714 DEBUG   HandlerThread:13026 [git.py:repo():40] git repository is invalid
+2023-07-10 15:09:51,714 DEBUG   HandlerThread:13026 [system_info.py:probe():241] Probing system done
+2023-07-10 15:09:51,714 DEBUG   HandlerThread:13026 [system_monitor.py:probe():181] {'os': 'Linux-4.19.0-24-cloud-amd64-x86_64-with-glibc2.28', 'python': '3.10.9', 'heartbeatAt': '2023-07-10T15:09:51.712414', 'startedAt': '2023-07-10T15:09:51.398075', 'docker': None, 'cuda': '11.0.228', 'args': None, 'state': 'running', 'program': 'model_training/train_model.ipynb', 'root': '/home/LENOVO', 'host': 'instance-5-image-1', 'username': 'LENOVO', 'executable': '/home/LENOVO/anaconda3/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2200.1840000000007, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}, {'current': 2200.184, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 984.0530128479004, 'used': 110.09484481811523}, 'gpu': 'NVIDIA A100-SXM4-40GB', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-40GB', 'memory_total': 42949672960}, {'name': 'NVIDIA A100-SXM4-40GB', 'memory_total': 42949672960}], 'memory': {'total': 167.25544357299805}}
+2023-07-10 15:09:51,714 INFO    HandlerThread:13026 [system_monitor.py:probe():182] Finished collecting system info
+2023-07-10 15:09:51,714 INFO    HandlerThread:13026 [system_monitor.py:probe():185] Publishing system info
+2023-07-10 15:09:51,714 DEBUG   HandlerThread:13026 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-10 15:09:51,714 DEBUG   HandlerThread:13026 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-10 15:09:51,714 DEBUG   HandlerThread:13026 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-10 15:09:52,613 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_created():275] file/dir created: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/wandb-summary.json
+2023-07-10 15:09:52,613 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_created():275] file/dir created: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/requirements.txt
+2023-07-10 15:09:52,613 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_created():275] file/dir created: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/conda-environment.yaml
+2023-07-10 15:09:59,176 DEBUG   HandlerThread:13026 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-10 15:09:59,177 INFO    HandlerThread:13026 [system_monitor.py:probe():187] Finished publishing system info
+2023-07-10 15:09:59,182 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:09:59,182 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:09:59,182 DEBUG   SenderThread:13026 [sender.py:send():336] send: files
+2023-07-10 15:09:59,182 INFO    SenderThread:13026 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-07-10 15:09:59,198 DEBUG   SenderThread:13026 [sender.py:send():336] send: telemetry
+2023-07-10 15:09:59,203 DEBUG   SenderThread:13026 [sender.py:send():336] send: config
+2023-07-10 15:09:59,203 DEBUG   SenderThread:13026 [sender.py:send():336] send: metric
+2023-07-10 15:09:59,203 DEBUG   SenderThread:13026 [sender.py:send():336] send: telemetry
+2023-07-10 15:09:59,203 DEBUG   SenderThread:13026 [sender.py:send():336] send: metric
+2023-07-10 15:09:59,203 WARNING SenderThread:13026 [sender.py:send_metric():1272] Seen metric with glob (shouldn't happen)
+2023-07-10 15:09:59,204 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-10 15:09:59,204 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: stop_status
+2023-07-10 15:09:59,505 INFO    wandb-upload_0:13026 [upload_job.py:push():138] Uploaded file /var/tmp/tmp7d3mxx9gwandb/mpx33m0z-wandb-metadata.json
+2023-07-10 15:09:59,614 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/conda-environment.yaml
+2023-07-10 15:09:59,614 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_created():275] file/dir created: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/wandb-metadata.json
+2023-07-10 15:10:02,237 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:10:04,616 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_created():275] file/dir created: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:10:06,616 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:10:07,732 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:10:10,203 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:10:10,204 DEBUG   SenderThread:13026 [sender.py:send():336] send: metric
+2023-07-10 15:10:10,204 DEBUG   SenderThread:13026 [sender.py:send():336] send: metric
+2023-07-10 15:10:10,204 DEBUG   SenderThread:13026 [sender.py:send():336] send: metric
+2023-07-10 15:10:10,204 DEBUG   SenderThread:13026 [sender.py:send():336] send: history
+2023-07-10 15:10:10,204 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:10:10,206 INFO    SenderThread:13026 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:10:10,618 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/wandb-summary.json
+2023-07-10 15:10:13,206 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:10:14,196 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:10:17,188 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:10:17,189 DEBUG   SenderThread:13026 [sender.py:send():336] send: history
+2023-07-10 15:10:17,189 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:10:17,191 INFO    SenderThread:13026 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:10:17,620 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/wandb-summary.json
+2023-07-10 15:10:19,192 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:10:19,199 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:10:24,196 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:10:24,200 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:10:24,623 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/config.yaml
+2023-07-10 15:10:24,793 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:10:24,794 DEBUG   SenderThread:13026 [sender.py:send():336] send: history
+2023-07-10 15:10:24,794 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:10:24,795 INFO    SenderThread:13026 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:10:25,623 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/wandb-summary.json
+2023-07-10 15:10:29,206 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:10:29,796 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:10:31,698 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:10:31,698 DEBUG   SenderThread:13026 [sender.py:send():336] send: history
+2023-07-10 15:10:31,699 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:10:31,700 INFO    SenderThread:13026 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:10:32,625 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/wandb-summary.json
+2023-07-10 15:10:34,207 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:10:35,701 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:10:38,862 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:10:38,863 DEBUG   SenderThread:13026 [sender.py:send():336] send: history
+2023-07-10 15:10:38,863 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:10:38,865 INFO    SenderThread:13026 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:10:39,213 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:10:39,627 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/wandb-summary.json
+2023-07-10 15:10:40,865 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:10:44,214 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:10:45,866 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:10:45,947 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:10:45,948 DEBUG   SenderThread:13026 [sender.py:send():336] send: history
+2023-07-10 15:10:45,948 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:10:45,949 INFO    SenderThread:13026 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:10:46,630 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/wandb-summary.json
+2023-07-10 15:10:49,215 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:10:50,950 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:10:51,695 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-07-10 15:10:51,697 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:10:53,271 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:10:53,271 DEBUG   SenderThread:13026 [sender.py:send():336] send: history
+2023-07-10 15:10:53,272 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:10:53,272 INFO    SenderThread:13026 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:10:53,632 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/wandb-summary.json
+2023-07-10 15:10:54,215 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:10:56,273 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:10:59,221 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:11:00,670 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:11:00,671 DEBUG   SenderThread:13026 [sender.py:send():336] send: history
+2023-07-10 15:11:00,671 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:11:00,672 INFO    SenderThread:13026 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:11:01,635 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/wandb-summary.json
+2023-07-10 15:11:01,673 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:11:04,222 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:11:06,674 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:11:07,662 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:11:07,663 DEBUG   SenderThread:13026 [sender.py:send():336] send: history
+2023-07-10 15:11:07,663 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:11:07,663 INFO    SenderThread:13026 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:11:08,637 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/wandb-summary.json
+2023-07-10 15:11:09,223 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:11:12,664 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:11:14,224 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:11:14,702 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:11:14,703 DEBUG   SenderThread:13026 [sender.py:send():336] send: history
+2023-07-10 15:11:14,703 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:11:14,704 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 15:11:14,706 INFO    SenderThread:13026 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:11:14,707 DEBUG   SenderThread:13026 [sender.py:send():336] send: metric
+2023-07-10 15:11:14,707 DEBUG   SenderThread:13026 [sender.py:send():336] send: metric
+2023-07-10 15:11:14,707 DEBUG   SenderThread:13026 [sender.py:send():336] send: metric
+2023-07-10 15:11:14,707 DEBUG   SenderThread:13026 [sender.py:send():336] send: metric
+2023-07-10 15:11:14,707 DEBUG   SenderThread:13026 [sender.py:send():336] send: metric
+2023-07-10 15:11:14,707 DEBUG   SenderThread:13026 [sender.py:send():336] send: history
+2023-07-10 15:11:14,707 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: summary_record
+2023-07-10 15:11:14,708 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: pause
+2023-07-10 15:11:14,708 INFO    HandlerThread:13026 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-07-10 15:11:14,708 INFO    HandlerThread:13026 [system_monitor.py:finish():161] Stopping system monitor
+2023-07-10 15:11:14,708 INFO    SenderThread:13026 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:11:14,709 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-07-10 15:11:14,710 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-07-10 15:11:14,710 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined cpu
+2023-07-10 15:11:14,711 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined disk
+2023-07-10 15:11:14,808 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined gpu
+2023-07-10 15:11:14,808 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined memory
+2023-07-10 15:11:14,808 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined network
+2023-07-10 15:11:14,808 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:11:15,639 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/wandb-summary.json
+2023-07-10 15:11:17,640 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:11:17,809 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:11:19,225 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:11:22,810 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:11:24,225 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:11:27,815 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:11:28,643 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/config.yaml
+2023-07-10 15:11:29,226 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:11:32,956 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:11:34,227 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:11:37,958 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:11:39,228 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:11:42,958 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:11:44,229 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:11:47,959 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:11:49,230 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:11:52,960 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:11:54,230 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:11:57,961 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:11:59,231 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:12:02,962 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:12:04,232 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:12:07,963 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:12:09,233 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:12:12,964 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:12:14,234 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:12:17,965 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:12:19,235 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:12:22,966 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:12:24,236 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:12:27,966 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:12:29,237 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:12:32,967 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:12:34,237 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:12:37,968 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:12:39,238 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:12:42,969 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:12:44,239 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:12:47,970 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:12:49,240 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:12:52,971 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:12:54,241 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:12:57,971 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:12:59,242 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:13:02,972 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:13:04,242 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:13:07,973 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:13:09,243 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:13:12,974 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:13:14,244 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:13:17,975 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:13:19,245 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:13:22,976 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:13:24,246 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:13:27,976 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:13:29,247 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:13:32,977 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:13:34,248 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:13:37,978 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:13:39,249 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:13:42,979 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:13:44,250 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:13:47,980 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:13:49,251 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:13:52,981 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:13:54,252 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:13:57,981 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:13:59,253 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:14:02,982 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:14:04,253 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:14:07,983 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:14:09,254 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:14:12,984 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:14:14,255 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:14:17,985 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:14:19,256 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:14:22,986 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:14:24,257 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:14:27,986 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:14:29,258 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:14:32,987 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:14:34,258 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:14:37,988 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:14:39,259 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:14:42,989 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:14:44,260 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:14:47,990 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:14:49,261 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:14:52,990 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:14:54,262 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:14:57,991 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:14:59,263 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:15:02,992 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:15:04,264 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:15:07,993 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:15:09,265 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:15:12,994 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:15:14,266 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:15:17,995 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:15:19,267 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:15:22,995 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:15:24,268 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:15:27,996 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:15:29,269 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:15:32,997 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:15:34,269 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:15:37,998 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:15:39,270 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:15:42,999 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:15:44,271 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:15:47,999 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:15:49,272 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:15:53,000 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:15:54,273 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:15:58,001 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:15:59,274 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:16:03,002 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:16:04,275 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:16:08,003 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:16:09,276 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:16:13,004 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:16:14,277 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:16:18,005 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:16:19,277 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:16:23,005 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:16:24,278 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:16:28,006 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:16:29,279 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:16:33,007 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:16:34,280 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:16:38,008 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:16:39,281 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:16:43,009 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:16:44,282 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:16:48,010 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:16:49,283 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:16:53,011 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:16:54,284 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:16:58,011 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:16:59,285 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:17:03,012 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:17:04,286 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:17:08,013 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:17:09,287 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:17:13,014 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:17:14,288 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:17:18,015 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:17:19,288 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:17:23,016 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:17:24,289 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:17:28,017 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:17:29,290 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:17:32,056 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: resume
+2023-07-10 15:17:32,056 INFO    HandlerThread:13026 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-07-10 15:17:32,056 INFO    HandlerThread:13026 [system_monitor.py:start():151] Starting system monitor
+2023-07-10 15:17:32,056 INFO    SystemMonitor:13026 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-07-10 15:17:32,057 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started cpu
+2023-07-10 15:17:32,057 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started disk
+2023-07-10 15:17:32,057 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started gpu
+2023-07-10 15:17:32,058 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started memory
+2023-07-10 15:17:32,059 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started network
+2023-07-10 15:17:33,017 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:17:34,291 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:17:38,803 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:17:39,292 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:17:39,760 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:17:41,797 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: pause
+2023-07-10 15:17:41,797 INFO    HandlerThread:13026 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-07-10 15:17:41,797 INFO    HandlerThread:13026 [system_monitor.py:finish():161] Stopping system monitor
+2023-07-10 15:17:41,798 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-07-10 15:17:41,798 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-07-10 15:17:41,798 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-07-10 15:17:41,799 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined cpu
+2023-07-10 15:17:41,799 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined disk
+2023-07-10 15:17:41,896 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined gpu
+2023-07-10 15:17:41,896 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined memory
+2023-07-10 15:17:41,896 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined network
+2023-07-10 15:17:41,896 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:17:43,761 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:17:43,897 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:17:44,293 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:17:48,898 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:17:49,294 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:17:53,899 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:17:54,295 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:17:58,900 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:17:59,295 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:18:03,901 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:18:04,296 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:18:08,901 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:18:09,297 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:18:13,902 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:18:14,298 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:18:18,903 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:18:19,299 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:18:23,904 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:18:24,300 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:18:28,905 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:18:29,301 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:18:33,906 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:18:34,302 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:18:38,907 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:18:39,303 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:18:43,908 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:18:44,304 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:18:48,908 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:18:49,305 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:18:52,226 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: resume
+2023-07-10 15:18:52,226 INFO    HandlerThread:13026 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-07-10 15:18:52,226 INFO    HandlerThread:13026 [system_monitor.py:start():151] Starting system monitor
+2023-07-10 15:18:52,226 INFO    SystemMonitor:13026 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-07-10 15:18:52,226 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started cpu
+2023-07-10 15:18:52,227 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started disk
+2023-07-10 15:18:52,227 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started gpu
+2023-07-10 15:18:52,228 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started memory
+2023-07-10 15:18:52,229 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started network
+2023-07-10 15:18:53,909 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:18:54,305 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:18:57,783 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:18:58,764 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: pause
+2023-07-10 15:18:58,764 INFO    HandlerThread:13026 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-07-10 15:18:58,764 INFO    HandlerThread:13026 [system_monitor.py:finish():161] Stopping system monitor
+2023-07-10 15:18:58,765 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-07-10 15:18:58,765 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-07-10 15:18:58,765 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-07-10 15:18:58,766 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined cpu
+2023-07-10 15:18:58,766 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined disk
+2023-07-10 15:18:58,865 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined gpu
+2023-07-10 15:18:58,866 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined memory
+2023-07-10 15:18:58,866 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined network
+2023-07-10 15:18:58,866 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:18:59,306 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:18:59,867 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:19:01,785 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:19:04,307 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:19:04,867 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:19:09,308 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:19:09,868 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:19:14,309 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:19:14,869 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:19:19,310 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:19:19,870 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:19:24,311 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:19:24,871 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:19:29,312 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:19:29,872 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:19:34,313 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:19:34,872 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:19:39,314 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:19:39,873 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:19:44,315 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:19:44,874 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:19:49,315 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:19:49,875 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:19:54,316 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:19:54,876 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:19:59,317 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:19:59,877 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:20:04,318 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:20:04,878 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:20:09,319 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:20:09,879 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:20:14,320 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:20:14,879 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:20:19,321 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:20:19,880 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:20:24,322 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:20:24,881 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:20:29,323 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:20:29,882 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:20:34,324 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:20:34,883 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:20:39,325 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:20:39,884 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:20:44,326 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:20:44,884 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:20:49,327 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:20:49,885 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:20:54,328 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:20:54,886 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:20:59,329 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:20:59,887 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:21:04,330 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:21:04,887 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:21:09,330 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:21:09,888 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:21:14,332 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:21:14,889 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:21:19,332 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:21:19,890 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:21:24,333 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:21:24,891 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:21:29,334 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:21:29,892 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:21:34,335 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:21:34,893 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:21:39,336 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:21:39,894 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:21:44,337 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:21:44,894 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:21:49,338 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:21:49,895 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:21:54,339 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:21:54,896 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:21:59,339 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:21:59,897 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:22:04,340 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:22:04,898 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:22:09,341 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:22:09,899 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:22:14,342 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:22:14,900 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:22:19,343 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:22:19,900 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:22:24,344 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:22:24,901 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:22:29,345 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:22:29,902 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:22:34,346 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:22:34,903 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:22:39,347 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:22:39,904 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:22:44,348 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:22:44,905 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:22:49,348 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:22:49,906 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:22:54,349 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:22:54,906 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:22:59,350 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:22:59,907 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:23:04,351 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:23:04,908 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:23:09,352 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:23:09,909 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:23:14,353 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:23:14,910 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:23:19,354 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:23:19,911 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:23:24,355 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:23:24,912 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:23:29,356 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:23:29,912 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:23:34,356 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:23:34,913 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:23:39,357 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:23:39,914 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:23:44,358 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:23:44,915 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:23:49,359 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:23:49,915 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:23:54,360 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:23:54,916 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:23:59,361 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:23:59,917 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:24:04,362 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:24:04,918 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:24:09,363 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:24:09,919 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:24:14,364 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:24:14,920 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:24:19,365 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:24:19,920 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:24:24,365 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:24:24,921 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:24:29,366 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:24:29,922 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:24:34,367 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:24:34,923 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:24:39,368 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:24:39,924 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:24:44,369 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:24:44,924 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:24:49,370 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:24:49,925 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:24:54,371 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:24:54,926 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:24:59,372 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:24:59,927 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:25:04,373 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:25:04,928 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:25:09,373 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:25:09,928 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:25:14,374 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:25:14,929 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:25:19,375 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:25:19,930 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:25:24,376 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:25:24,931 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:25:29,377 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:25:29,931 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:25:34,378 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:25:34,932 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:25:39,379 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:25:39,933 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:25:44,379 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:25:44,934 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:25:49,380 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:25:49,935 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:25:54,381 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:25:54,936 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:25:59,382 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:25:59,936 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:26:04,383 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:26:04,937 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:26:09,383 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:26:09,938 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:26:14,384 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:26:14,939 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:26:17,611 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: resume
+2023-07-10 15:26:17,611 INFO    HandlerThread:13026 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-07-10 15:26:17,611 INFO    HandlerThread:13026 [system_monitor.py:start():151] Starting system monitor
+2023-07-10 15:26:17,612 INFO    SystemMonitor:13026 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-07-10 15:26:17,612 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started cpu
+2023-07-10 15:26:17,612 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started disk
+2023-07-10 15:26:17,613 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started gpu
+2023-07-10 15:26:17,614 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started memory
+2023-07-10 15:26:17,614 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started network
+2023-07-10 15:26:19,385 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:26:19,940 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:26:24,386 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:26:24,940 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:26:28,922 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:26:29,387 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:26:29,923 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:26:30,191 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:26:31,189 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: pause
+2023-07-10 15:26:31,189 INFO    HandlerThread:13026 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-07-10 15:26:31,190 INFO    HandlerThread:13026 [system_monitor.py:finish():161] Stopping system monitor
+2023-07-10 15:26:31,190 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-07-10 15:26:31,191 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-07-10 15:26:31,191 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-07-10 15:26:31,192 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined cpu
+2023-07-10 15:26:31,192 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined disk
+2023-07-10 15:26:31,297 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined gpu
+2023-07-10 15:26:31,297 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined memory
+2023-07-10 15:26:31,298 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined network
+2023-07-10 15:26:31,298 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:26:34,388 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:26:35,299 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:26:39,389 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:26:40,300 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:26:44,390 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:26:45,301 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:26:49,391 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:26:50,302 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:26:54,391 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:26:55,303 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:26:59,392 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:27:00,303 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:27:04,393 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:27:05,304 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:27:06,089 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: resume
+2023-07-10 15:27:06,089 INFO    HandlerThread:13026 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-07-10 15:27:06,089 INFO    HandlerThread:13026 [system_monitor.py:start():151] Starting system monitor
+2023-07-10 15:27:06,090 INFO    SystemMonitor:13026 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-07-10 15:27:06,090 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started cpu
+2023-07-10 15:27:06,090 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started disk
+2023-07-10 15:27:06,091 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started gpu
+2023-07-10 15:27:06,091 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started memory
+2023-07-10 15:27:06,092 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started network
+2023-07-10 15:27:09,394 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:27:10,305 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:27:14,395 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:27:15,576 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:27:15,937 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:27:16,937 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:27:17,938 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:27:19,395 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:27:20,823 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:27:24,396 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:27:25,824 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:27:29,397 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:27:30,825 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:27:34,398 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:27:34,576 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: pause
+2023-07-10 15:27:34,576 INFO    HandlerThread:13026 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-07-10 15:27:34,576 INFO    HandlerThread:13026 [system_monitor.py:finish():161] Stopping system monitor
+2023-07-10 15:27:34,577 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-07-10 15:27:34,577 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined cpu
+2023-07-10 15:27:34,577 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined disk
+2023-07-10 15:27:34,577 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-07-10 15:27:34,577 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-07-10 15:27:34,675 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined gpu
+2023-07-10 15:27:34,676 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined memory
+2023-07-10 15:27:34,676 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined network
+2023-07-10 15:27:34,676 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:27:35,943 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:27:36,677 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:27:39,399 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:27:41,678 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:27:44,400 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:27:46,679 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:27:49,400 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:27:51,679 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:27:54,401 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:27:56,680 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:27:59,402 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:28:01,681 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:28:04,403 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:28:06,682 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:28:09,404 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:28:11,683 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:28:14,405 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:28:16,683 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:28:19,406 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:28:21,684 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:28:24,406 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:28:26,685 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:28:29,407 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:28:31,686 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:28:34,408 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:28:36,687 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:28:39,409 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:28:41,688 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:28:44,410 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:28:46,689 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:28:49,411 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:28:51,690 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:28:54,411 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:28:56,691 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:28:59,412 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:29:01,691 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:29:04,413 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:29:06,692 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:29:09,414 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:29:11,693 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:29:14,415 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:29:16,694 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:29:19,416 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:29:21,695 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:29:24,417 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:29:26,696 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:29:29,418 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:29:31,696 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:29:34,419 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:29:36,697 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:29:39,420 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:29:41,698 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:29:44,421 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:29:46,699 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:29:49,421 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:29:51,700 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:29:54,422 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:29:55,295 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: resume
+2023-07-10 15:29:55,295 INFO    HandlerThread:13026 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-07-10 15:29:55,295 INFO    HandlerThread:13026 [system_monitor.py:start():151] Starting system monitor
+2023-07-10 15:29:55,295 INFO    SystemMonitor:13026 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-07-10 15:29:55,296 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started cpu
+2023-07-10 15:29:55,296 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started disk
+2023-07-10 15:29:55,296 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started gpu
+2023-07-10 15:29:55,297 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started memory
+2023-07-10 15:29:55,297 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started network
+2023-07-10 15:29:56,700 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:29:59,423 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:30:01,701 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:30:04,424 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:30:05,988 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:30:06,977 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:30:09,425 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:30:11,978 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:30:14,426 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:30:16,979 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:30:19,427 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:30:21,993 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:30:22,424 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:30:23,993 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:30:24,428 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:30:25,994 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:30:27,694 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:30:29,429 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:30:32,695 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:30:34,429 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:30:37,695 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:30:39,430 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:30:42,696 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:30:44,431 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:30:47,969 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:30:48,001 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:30:49,432 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:30:50,001 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:30:53,734 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:30:54,433 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:30:55,298 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-07-10 15:30:55,299 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:30:59,301 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:30:59,434 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:31:04,301 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:31:04,435 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:31:09,436 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:31:09,438 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:31:10,008 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:31:14,437 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:31:14,440 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:31:19,437 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:31:19,440 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:31:22,011 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:31:24,012 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:31:24,439 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:31:25,063 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:31:25,300 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:31:26,013 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:31:29,439 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:31:30,301 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:31:34,440 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:31:35,302 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:31:39,441 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:31:40,303 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:31:44,442 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:31:45,304 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:31:49,443 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:31:50,305 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:31:54,444 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:31:55,301 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:31:56,302 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:31:59,445 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:32:01,303 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:32:01,583 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: pause
+2023-07-10 15:32:01,583 INFO    HandlerThread:13026 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-07-10 15:32:01,583 INFO    HandlerThread:13026 [system_monitor.py:finish():161] Stopping system monitor
+2023-07-10 15:32:01,583 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-07-10 15:32:01,584 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-07-10 15:32:01,585 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined cpu
+2023-07-10 15:32:01,585 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined disk
+2023-07-10 15:32:01,682 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined gpu
+2023-07-10 15:32:01,682 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined memory
+2023-07-10 15:32:01,682 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined network
+2023-07-10 15:32:01,685 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:32:03,024 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:32:04,446 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:32:06,686 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:32:09,446 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:32:11,687 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:32:14,447 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:32:16,688 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:32:19,448 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:32:21,689 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:32:24,449 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:32:26,690 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:32:29,450 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:32:31,691 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:32:34,451 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:32:36,692 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:32:39,451 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:32:41,693 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:32:44,452 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:32:46,694 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:32:49,453 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:32:51,695 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:32:54,454 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:32:56,696 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:32:59,455 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:33:00,035 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: resume
+2023-07-10 15:33:00,035 INFO    HandlerThread:13026 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-07-10 15:33:00,035 INFO    HandlerThread:13026 [system_monitor.py:start():151] Starting system monitor
+2023-07-10 15:33:00,035 INFO    SystemMonitor:13026 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-07-10 15:33:00,035 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started cpu
+2023-07-10 15:33:00,036 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started disk
+2023-07-10 15:33:00,036 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started gpu
+2023-07-10 15:33:00,037 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started memory
+2023-07-10 15:33:00,037 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started network
+2023-07-10 15:33:01,697 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:33:04,456 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:33:06,697 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:33:09,457 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:33:11,952 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:33:12,044 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:33:14,458 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:33:15,045 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:33:16,954 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:33:19,459 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:33:21,955 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:33:24,460 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:33:26,956 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:33:29,461 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:33:31,957 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:33:34,461 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:33:36,957 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:33:39,462 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:33:42,054 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:33:42,353 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:33:43,054 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:33:44,463 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:33:47,353 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:33:49,464 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:33:52,354 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:33:54,465 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:33:56,061 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:33:57,061 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:33:58,314 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:33:59,466 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:34:00,038 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-07-10 15:34:00,039 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:34:04,040 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:34:04,467 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:34:09,041 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:34:09,467 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:34:14,042 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:34:14,468 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:34:19,043 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:34:19,469 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:34:24,044 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:34:24,470 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:34:29,044 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:34:29,471 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:34:30,041 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:34:34,472 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:34:35,042 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:34:39,473 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:34:40,043 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:34:44,474 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:34:45,044 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:34:49,474 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:34:50,045 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:34:54,475 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:34:55,045 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:34:59,476 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:35:00,041 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:35:01,041 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:35:04,477 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:35:06,042 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:35:09,478 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:35:11,043 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:35:14,478 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:35:16,044 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:35:19,479 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:35:21,045 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:35:24,480 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:35:26,045 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:35:29,481 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:35:30,041 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:35:32,042 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:35:34,481 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:35:37,043 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:35:39,482 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:35:42,044 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:35:44,483 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:35:47,045 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:35:49,484 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:35:52,045 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:35:54,485 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:35:57,087 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:35:58,112 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:35:59,112 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:35:59,485 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:36:00,042 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:36:03,043 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:36:04,486 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:36:08,044 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:36:09,487 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:36:13,045 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:36:14,488 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:36:18,045 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:36:19,489 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:36:23,046 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:36:24,489 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:36:28,047 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:36:29,490 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:36:30,043 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:36:34,044 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:36:34,491 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:36:39,492 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:36:39,496 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:36:40,127 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:36:43,128 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:36:44,493 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:36:44,543 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:36:49,494 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:36:49,544 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:36:54,495 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:36:54,545 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:36:59,496 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:36:59,546 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:37:00,044 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:37:04,134 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:37:04,497 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:37:04,943 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:37:05,135 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:37:09,497 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:37:09,944 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:37:14,498 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:37:14,945 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:37:19,499 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:37:19,946 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:37:24,500 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:37:24,947 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:37:28,141 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:37:29,501 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:37:30,044 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:37:30,046 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:37:31,142 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:37:34,502 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:37:35,046 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:37:39,503 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:37:40,046 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:37:42,109 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: pause
+2023-07-10 15:37:42,109 INFO    HandlerThread:13026 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-07-10 15:37:42,109 INFO    HandlerThread:13026 [system_monitor.py:finish():161] Stopping system monitor
+2023-07-10 15:37:42,110 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-07-10 15:37:42,110 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-07-10 15:37:42,111 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined cpu
+2023-07-10 15:37:42,111 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined disk
+2023-07-10 15:37:42,146 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:37:42,203 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined gpu
+2023-07-10 15:37:42,203 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined memory
+2023-07-10 15:37:42,203 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined network
+2023-07-10 15:37:42,203 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:37:44,514 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:37:45,204 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:37:49,515 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:37:50,205 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:37:54,516 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:37:55,206 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:37:59,517 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:38:00,207 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:38:04,518 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:38:05,208 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:38:09,519 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:38:10,209 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:38:14,520 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:38:15,210 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:38:19,521 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:38:20,211 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:38:24,521 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:38:25,212 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:38:29,522 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:38:30,213 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:38:34,523 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:38:35,213 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:38:37,204 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: resume
+2023-07-10 15:38:37,204 INFO    HandlerThread:13026 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-07-10 15:38:37,204 INFO    HandlerThread:13026 [system_monitor.py:start():151] Starting system monitor
+2023-07-10 15:38:37,205 INFO    SystemMonitor:13026 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-07-10 15:38:37,205 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started cpu
+2023-07-10 15:38:37,205 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started disk
+2023-07-10 15:38:37,206 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started gpu
+2023-07-10 15:38:37,206 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started memory
+2023-07-10 15:38:37,207 INFO    SystemMonitor:13026 [interfaces.py:start():168] Started network
+2023-07-10 15:38:39,524 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:38:40,214 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:38:44,525 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:38:45,215 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:38:48,165 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:38:49,526 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:38:50,550 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:38:51,166 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:38:54,527 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:38:55,551 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:38:59,527 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:39:00,552 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:39:04,528 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:39:05,553 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:39:09,529 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:39:10,554 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:39:14,530 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:39:15,555 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:39:19,531 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:39:20,556 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:39:24,532 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:39:25,556 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:39:29,532 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:39:30,557 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:39:34,533 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:39:35,558 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:39:37,208 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-07-10 15:39:37,209 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:39:39,534 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:39:41,210 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:39:44,535 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:39:46,211 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:39:49,536 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:39:50,186 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:39:51,186 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:39:51,831 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:39:54,537 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:39:56,832 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:39:59,538 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:40:01,833 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:40:04,538 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:40:07,152 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:40:07,210 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:40:08,192 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:40:09,192 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:40:09,539 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:40:12,349 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:40:14,540 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:40:17,350 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:40:19,541 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:40:22,196 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:40:22,373 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:40:23,196 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:40:24,542 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:40:27,374 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:40:29,543 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:40:32,375 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:40:34,544 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:40:36,200 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:40:37,201 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:40:37,211 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:40:38,212 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:40:39,544 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:40:43,212 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:40:44,545 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:40:48,213 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:40:49,546 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:40:53,214 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:40:54,547 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:40:58,215 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:40:59,548 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:41:03,216 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:41:04,549 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:41:04,941 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: pause
+2023-07-10 15:41:04,941 INFO    HandlerThread:13026 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-07-10 15:41:04,941 INFO    HandlerThread:13026 [system_monitor.py:finish():161] Stopping system monitor
+2023-07-10 15:41:04,942 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-07-10 15:41:04,942 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined cpu
+2023-07-10 15:41:04,943 DEBUG   SystemMonitor:13026 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-07-10 15:41:04,943 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined disk
+2023-07-10 15:41:05,039 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined gpu
+2023-07-10 15:41:05,039 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined memory
+2023-07-10 15:41:05,040 INFO    HandlerThread:13026 [interfaces.py:finish():175] Joined network
+2023-07-10 15:41:05,040 DEBUG   SenderThread:13026 [sender.py:send():336] send: stats
+2023-07-10 15:41:09,041 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:41:09,550 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:41:14,042 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:41:14,551 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:41:19,043 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:41:19,552 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:41:24,043 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:41:24,553 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:41:29,044 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:41:29,554 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:41:34,045 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:41:34,555 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:41:39,046 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:41:39,557 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:41:44,047 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:41:44,558 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:41:49,048 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:41:49,559 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:41:54,048 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:41:54,560 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:41:59,049 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:41:59,561 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:42:04,050 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:42:04,562 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:42:09,051 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:42:09,563 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:42:14,052 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:42:14,564 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:42:19,053 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:42:19,565 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:42:24,054 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:42:24,566 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:42:29,055 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:42:29,567 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:42:34,055 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:42:34,567 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:42:39,056 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:42:39,568 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:42:44,057 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:42:44,569 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:42:49,058 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:42:49,570 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:42:54,059 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:42:54,571 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:42:59,060 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:42:59,572 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:43:04,061 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:43:04,573 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:43:09,062 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:43:09,574 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:43:14,063 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:43:14,575 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:43:19,064 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:43:19,575 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:43:24,064 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:43:24,576 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:43:29,065 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:43:29,577 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:43:34,066 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:43:34,578 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:43:39,067 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:43:39,579 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:43:44,068 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:43:44,580 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:43:49,069 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:43:49,581 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 15:43:53,079 DEBUG   SenderThread:13026 [sender.py:send():336] send: exit
+2023-07-10 15:43:53,079 INFO    SenderThread:13026 [sender.py:send_exit():559] handling exit code: 0
+2023-07-10 15:43:53,079 INFO    SenderThread:13026 [sender.py:send_exit():561] handling runtime: 698
+2023-07-10 15:43:53,081 INFO    SenderThread:13026 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:43:53,081 INFO    SenderThread:13026 [sender.py:send_exit():567] send defer
+2023-07-10 15:43:53,081 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 15:43:53,081 INFO    HandlerThread:13026 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-10 15:43:53,082 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: defer
+2023-07-10 15:43:53,082 INFO    SenderThread:13026 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-07-10 15:43:53,082 INFO    SenderThread:13026 [sender.py:transition_state():587] send defer: 1
+2023-07-10 15:43:53,082 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 15:43:53,082 INFO    HandlerThread:13026 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-10 15:43:53,082 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: defer
+2023-07-10 15:43:53,082 INFO    SenderThread:13026 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-07-10 15:43:53,082 INFO    SenderThread:13026 [sender.py:transition_state():587] send defer: 2
+2023-07-10 15:43:53,082 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 15:43:53,082 INFO    HandlerThread:13026 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-10 15:43:53,083 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: defer
+2023-07-10 15:43:53,083 INFO    SenderThread:13026 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-07-10 15:43:53,083 INFO    SenderThread:13026 [sender.py:transition_state():587] send defer: 3
+2023-07-10 15:43:53,083 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 15:43:53,083 INFO    HandlerThread:13026 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-10 15:43:53,083 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: defer
+2023-07-10 15:43:53,083 INFO    SenderThread:13026 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-07-10 15:43:53,083 INFO    SenderThread:13026 [sender.py:transition_state():587] send defer: 4
+2023-07-10 15:43:53,083 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 15:43:53,083 INFO    HandlerThread:13026 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-10 15:43:53,083 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: defer
+2023-07-10 15:43:53,084 INFO    SenderThread:13026 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-07-10 15:43:53,084 INFO    SenderThread:13026 [sender.py:transition_state():587] send defer: 5
+2023-07-10 15:43:53,084 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 15:43:53,084 INFO    HandlerThread:13026 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-10 15:43:53,084 DEBUG   SenderThread:13026 [sender.py:send():336] send: summary
+2023-07-10 15:43:53,084 INFO    SenderThread:13026 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-07-10 15:43:53,084 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: defer
+2023-07-10 15:43:53,085 INFO    SenderThread:13026 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-07-10 15:43:53,085 INFO    SenderThread:13026 [sender.py:transition_state():587] send defer: 6
+2023-07-10 15:43:53,085 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 15:43:53,085 INFO    HandlerThread:13026 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-10 15:43:53,085 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: defer
+2023-07-10 15:43:53,085 INFO    SenderThread:13026 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-07-10 15:43:53,085 INFO    SenderThread:13026 [sender.py:transition_state():587] send defer: 7
+2023-07-10 15:43:53,085 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:43:53,085 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 15:43:53,085 INFO    HandlerThread:13026 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-10 15:43:53,085 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: defer
+2023-07-10 15:43:53,086 INFO    SenderThread:13026 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-07-10 15:43:53,261 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/wandb-summary.json
+2023-07-10 15:43:54,080 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-10 15:43:54,819 INFO    SenderThread:13026 [sender.py:transition_state():587] send defer: 8
+2023-07-10 15:43:54,820 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: poll_exit
+2023-07-10 15:43:54,820 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 15:43:54,820 INFO    HandlerThread:13026 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-10 15:43:54,820 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: defer
+2023-07-10 15:43:54,820 INFO    SenderThread:13026 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-07-10 15:43:54,821 INFO    SenderThread:13026 [sender.py:transition_state():587] send defer: 9
+2023-07-10 15:43:54,821 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 15:43:54,821 INFO    HandlerThread:13026 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-10 15:43:54,821 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: defer
+2023-07-10 15:43:54,821 INFO    SenderThread:13026 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-07-10 15:43:54,821 INFO    SenderThread:13026 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-07-10 15:43:55,080 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-10 15:43:55,261 INFO    Thread-13 :13026 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:43:55,262 INFO    SenderThread:13026 [dir_watcher.py:finish():392] scan: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files
+2023-07-10 15:43:55,262 INFO    SenderThread:13026 [dir_watcher.py:finish():406] scan save: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log output.log
+2023-07-10 15:43:55,262 INFO    SenderThread:13026 [dir_watcher.py:finish():406] scan save: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/config.yaml config.yaml
+2023-07-10 15:43:55,262 INFO    SenderThread:13026 [dir_watcher.py:finish():406] scan save: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/wandb-summary.json wandb-summary.json
+2023-07-10 15:43:55,265 INFO    SenderThread:13026 [dir_watcher.py:finish():406] scan save: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/wandb-metadata.json wandb-metadata.json
+2023-07-10 15:43:55,265 INFO    SenderThread:13026 [dir_watcher.py:finish():406] scan save: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/conda-environment.yaml conda-environment.yaml
+2023-07-10 15:43:55,265 INFO    SenderThread:13026 [dir_watcher.py:finish():406] scan save: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/requirements.txt requirements.txt
+2023-07-10 15:43:55,270 INFO    SenderThread:13026 [sender.py:transition_state():587] send defer: 10
+2023-07-10 15:43:55,270 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: poll_exit
+2023-07-10 15:43:55,271 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 15:43:55,274 INFO    HandlerThread:13026 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-10 15:43:55,274 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: defer
+2023-07-10 15:43:55,274 INFO    SenderThread:13026 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-07-10 15:43:55,274 INFO    SenderThread:13026 [file_pusher.py:finish():162] shutting down file pusher
+2023-07-10 15:43:55,525 INFO    wandb-upload_3:13026 [upload_job.py:push():138] Uploaded file /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/conda-environment.yaml
+2023-07-10 15:43:55,525 INFO    wandb-upload_4:13026 [upload_job.py:push():138] Uploaded file /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/requirements.txt
+2023-07-10 15:43:55,531 INFO    wandb-upload_0:13026 [upload_job.py:push():138] Uploaded file /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/output.log
+2023-07-10 15:43:55,582 INFO    wandb-upload_1:13026 [upload_job.py:push():138] Uploaded file /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/config.yaml
+2023-07-10 15:43:55,634 INFO    wandb-upload_2:13026 [upload_job.py:push():138] Uploaded file /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/files/wandb-summary.json
+2023-07-10 15:43:55,835 INFO    Thread-12 (_thread_body):13026 [sender.py:transition_state():587] send defer: 11
+2023-07-10 15:43:55,835 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 15:43:55,835 INFO    HandlerThread:13026 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-10 15:43:55,835 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: defer
+2023-07-10 15:43:55,836 INFO    SenderThread:13026 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-07-10 15:43:55,836 INFO    SenderThread:13026 [file_pusher.py:join():167] waiting for file pusher
+2023-07-10 15:43:55,836 INFO    SenderThread:13026 [sender.py:transition_state():587] send defer: 12
+2023-07-10 15:43:55,836 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 15:43:55,836 INFO    HandlerThread:13026 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-10 15:43:55,836 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: defer
+2023-07-10 15:43:55,836 INFO    SenderThread:13026 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-07-10 15:43:56,081 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-10 15:43:56,151 INFO    SenderThread:13026 [sender.py:transition_state():587] send defer: 13
+2023-07-10 15:43:56,152 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: poll_exit
+2023-07-10 15:43:56,152 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 15:43:56,152 INFO    HandlerThread:13026 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-10 15:43:56,152 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: defer
+2023-07-10 15:43:56,152 INFO    SenderThread:13026 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-07-10 15:43:56,153 INFO    SenderThread:13026 [sender.py:transition_state():587] send defer: 14
+2023-07-10 15:43:56,153 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 15:43:56,153 INFO    HandlerThread:13026 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-10 15:43:56,153 DEBUG   SenderThread:13026 [sender.py:send():336] send: final
+2023-07-10 15:43:56,153 DEBUG   SenderThread:13026 [sender.py:send():336] send: footer
+2023-07-10 15:43:56,153 DEBUG   SenderThread:13026 [sender.py:send_request():363] send_request: defer
+2023-07-10 15:43:56,153 INFO    SenderThread:13026 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-07-10 15:44:00,154 DEBUG   HandlerThread:13026 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 15:44:02,572 WARNING StreamThr :13026 [internal.py:is_dead():415] Internal process exiting, parent pid 6375 disappeared
+2023-07-10 15:44:02,573 ERROR   StreamThr :13026 [internal.py:wandb_internal():153] Internal process shutdown.
+2023-07-10 15:44:03,154 INFO    SenderThread:13026 [sender.py:finish():1493] shutting down sender
+2023-07-10 15:44:03,155 INFO    HandlerThread:13026 [handler.py:finish():841] shutting down handler
+2023-07-10 15:44:03,155 INFO    SenderThread:13026 [file_pusher.py:finish():162] shutting down file pusher
+2023-07-10 15:44:03,155 INFO    WriterThread:13026 [datastore.py:close():299] close: /home/LENOVO/model_training/wandb/run-20230710_150951-bgq2s14r/run-bgq2s14r.wandb
+2023-07-10 15:44:03,155 INFO    SenderThread:13026 [file_pusher.py:join():167] waiting for file pusher
